@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+	      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" rel="stylesheet">
 	<title>Title</title>
 </head>
 <body>
@@ -39,7 +40,7 @@
 
 <div class="container-fluid bg-light mt-3">
 	<div class="row">
-		<div class="col mx-lg-auto" style="max-width: 960px;">
+		<div class="col-12 mx-lg-auto" style="max-width: 960px;">
 			<ul class="list-unstyled mx-lg-auto">
 				<li><a class="text-decoration-none text-dark" href="http://example.com">Абсолютная гиперссылка</a></li>
 				
@@ -136,123 +137,123 @@
 				                                                                     внутреннюю</a></li>
 			</ul>
 		</div>
-	</div>
-	<div class="col mx-lg-auto order-lg-3" style="max-width: 960px">
-		<table class="table table-bordered">
-			<thead>
-			<tr>
-				<th class="bg-info">#</th>
-				<th class="bg-warning">First</th>
-				<th class="bg-info">Second</th>
-				<th class="bg-warning">Last</th>
-			</tr>
-			</thead>
-			<tbody>
-			<tr>
-				<th class="bg-warning">1</th>
-				<td class="bg-info">Masaw</td>
-				<td class="bg-warning">Otqo</td>
-				<td class="bg-info">mdo</td>
-			</tr>
-			<tr>
-				<th class="bg-info">2</th>
-				<td class="bg-warning">Jacoqw</td>
-				<td class="bg-info">Thornert</td>
-				<td class="bg-warning">wqds</td>
-			</tr>
-			<tr>
-				<th class="bg-warning">3</th>
-				<td class="bg-info" colspan="2">Lqwes qwe</td>
-				<td class="bg-warning">qwer</td>
-			</tr>
-			</tbody>
-		</table>
-	</div>
-	<div class="col mx-lg-auto order-lg-2" style="max-width: 960px">
-		<form class="row g-3">
-			<div class="col-lg-5">
-				<label class="form-label" for="inputName">Имя</label>
-				<input class="form-control" id="inputName" placeholder="Введите имя" type="text">
-			</div>
-			<div class="col-lg-5">
-				<label class="form-label" for="inputEmail">Эл. адрес</label>
-				<input class="form-control" id="inputEmail" placeholder="Введите email" type="email">
-			</div>
-			<div class="col-lg-2">
-				<label class="form-label" for="inputBirthday">Дата рождения</label>
-				<input class="form-control" id="inputBirthday" name="field-date" type="date">
-			</div>
-			<div class="col-lg-6 ">Пол:
-				<div class="form-check form-check-inline">
-					<input checked class="form-check-input" name="Gender" type="radio">
-					<label class="form-check-label">
-						Мужской
-					</label>
+		<div class="col-12 mx-lg-auto order-lg-3 mt-1" style="max-width: 960px">
+			<table class="table table-bordered">
+				<thead>
+				<tr>
+					<th class="bg-info">#</th>
+					<th class="bg-warning">First</th>
+					<th class="bg-info">Second</th>
+					<th class="bg-warning">Last</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<th class="bg-warning">1</th>
+					<td class="bg-info">Masaw</td>
+					<td class="bg-warning">Otqo</td>
+					<td class="bg-info">mdo</td>
+				</tr>
+				<tr>
+					<th class="bg-info">2</th>
+					<td class="bg-warning">Jacoqw</td>
+					<td class="bg-info">Thornert</td>
+					<td class="bg-warning">wqds</td>
+				</tr>
+				<tr>
+					<th class="bg-warning">3</th>
+					<td class="bg-info" colspan="2">Lqwes qwe</td>
+					<td class="bg-warning">qwer</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="col-12 mx-lg-auto order-lg-2" style="max-width: 960px">
+			<form class="row g-3">
+				<div class="col-lg-5">
+					<label class="form-label" for="inputName">Имя</label>
+					<input class="form-control" id="inputName" placeholder="Введите имя" type="text">
 				</div>
-				<div class="form-check form-check-inline">
-					<input class="form-check-input" name="Gender" type="radio">
-					<label class="form-check-label">
-						Женский
-					</label>
+				<div class="col-lg-5">
+					<label class="form-label" for="inputEmail">Эл. адрес</label>
+					<input class="form-control" id="inputEmail" placeholder="Введите email" type="email">
 				</div>
-			</div>
-			<div class="col-lg-6">Количество конечностей:
-				<div class="form-check form-check-inline">
-					<input checked class="form-check-input" name="Limbs" type="radio">
-					<label class="form-check-label">1</label>
+				<div class="col-lg-2">
+					<label class="form-label" for="inputBirthday">Дата рождения</label>
+					<input class="form-control" id="inputBirthday" name="field-date" type="date">
 				</div>
-				<div class="form-check form-check-inline">
-					<input class="form-check-input" name="Limbs" type="radio">
-					<label class="form-check-label">2</label>
+				<div class="col-lg-6 ">Пол:
+					<div class="form-check form-check-inline">
+						<input checked class="form-check-input" name="Gender" type="radio">
+						<label class="form-check-label">
+							Мужской
+						</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" name="Gender" type="radio">
+						<label class="form-check-label">
+							Женский
+						</label>
+					</div>
+				</div>
+				<div class="col-lg-6">Количество конечностей:
+					<div class="form-check form-check-inline">
+						<input checked class="form-check-input" name="Limbs" type="radio">
+						<label class="form-check-label">1</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" name="Limbs" type="radio">
+						<label class="form-check-label">2</label>
+					</div>
+					
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" name="Limbs" type="radio">
+						<label class="form-check-label">3</label>
+					</div>
+					
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" name="Limbs" type="radio">
+						<label class="form-check-label">4</label>
+					</div>
 				</div>
 				
-				<div class="form-check form-check-inline">
-					<input class="form-check-input" name="Limbs" type="radio">
-					<label class="form-check-label">3</label>
+				<div class="col-12 input-group">
+					<span class="input-group-text">Сверхспособности</span>
+					<select class="form-select" multiple>
+						<option value="1">Бессмертие</option>
+						<option value="2">Прохождение сквозь стены</option>
+						<option value="3">Левитация</option>
+					</select>
 				</div>
 				
-				<div class="form-check form-check-inline">
-					<input class="form-check-input" name="Limbs" type="radio">
-					<label class="form-check-label">4</label>
+				<div class="col-12 input-group">
+					<span class="input-group-text">Биография</span>
+					<textarea class="form-control"></textarea>
 				</div>
-			</div>
-			
-			<div class="col-12 input-group">
-				<span class="input-group-text">Сверхспособности</span>
-				<select class="form-select" multiple>
-					<option value="1">Бессмертие</option>
-					<option value="2">Прохождение сквозь стены</option>
-					<option value="3">Левитация</option>
-				</select>
-			</div>
-			
-			<div class="col-12 input-group">
-				<span class="input-group-text">Биография</span>
-				<textarea class="form-control"></textarea>
-			</div>
-			
-			<div class="col-12 form-check text-center">
-				<label class="form-check-label">
-					<input class="form-check-input" type="checkbox">
-					С контрактом ознакомлен
-				</label>
-			</div>
-			<div class="col-12 text-center">
-				<button class="btn btn-primary" type="submit">Отправить</button>
-			</div>
-		</form>
+				
+				<div class="col-12 form-check text-center">
+					<label class="form-check-label">
+						<input class="form-check-input" type="checkbox">
+						С контрактом ознакомлен
+					</label>
+				</div>
+				<div class="col-12 text-center">
+					<button class="btn btn-primary" type="submit">Отправить</button>
+				</div>
+			</form>
+		</div>
 	</div>
 </div>
-
-
-<footer class="footer mt-2 py-2 bg-dark">
-	<div class="container-fluid">
-		<span class="text-muted text-start">(с)Олефиренко Захар</span>
-	</div>
-</footer>
-
-<script crossorigin="anonymous"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+	
+	
+	<footer class="footer mt-2 py-2 bg-dark">
+		<div class="container-fluid">
+			<span class="text-muted text-start">(с)Олефиренко Захар</span>
+		</div>
+	</footer>
+	
+	<script crossorigin="anonymous"
+	        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+	        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
